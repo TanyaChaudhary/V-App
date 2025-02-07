@@ -58,12 +58,12 @@ export default function ValentineApp() {
             className="text-center"
           >
             <h1 className="text-4xl font-bold">Yay! 🎉💖</h1>
-            <p className="text-lg mt-4">I knew you'd say yes! 😊</p>
+            <p className="text-lg mt-4">I knew you&apos;d say yes! 😊</p>
             <Button
               className="bg-blue-500 text-white px-6 py-3 text-lg mt-4"
               onClick={goToNextPage}
             >
-              Here's a song for you 🎶
+              Here&apos;s a song for you 🎶
             </Button>
           </motion.div>
         ) : (
